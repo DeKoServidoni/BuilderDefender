@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3659351825981767995}
-  - component: {fileID: 3165320467493374436}
-  - component: {fileID: -2491363900717259542}
+  - component: {fileID: -1868555786299716217}
+  - component: {fileID: -7419331809879819356}
   m_Layer: 0
-  m_Name: pf_WoodHarvester
+  m_Name: pf_StoneHarvester
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,7 +33,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3165320467493374436
+--- !u!114 &-1868555786299716217
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be1eaf17f520945228da3072f7bb71ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-2491363900717259542
+--- !u!114 &-7419331809879819356
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -57,7 +57,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9637f6cd06da46d3ba3db41316b5373, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingType: {fileID: 11400000, guid: 1a1b3d456a2c641b686fd77f3f740d9d, type: 2}
+  buildingType: {fileID: 11400000, guid: 3bc48a8595ca04a878479e5564893586, type: 2}
 --- !u!1 &3293313865850077941
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,7 +129,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 793ca27a5a3378149aaa12abe85933f4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2263e91ebcd2a254dab5f4caccb4a7af, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
