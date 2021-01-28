@@ -172,6 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   template: {fileID: 7625839553905545524, guid: 188990a82ae364547aa217d747d13e94, type: 3}
+  arrowSprite: {fileID: 21300000, guid: b473102855559fe44aece5625d4c17b0, type: 3}
 --- !u!1 &450668332
 GameObject:
   m_ObjectHideFlags: 0
