@@ -21,7 +21,6 @@ public class ResourceUI : MonoBehaviour {
         int index = 0;
         foreach (ResourceTypeSO resource in resources.GetList()) {
             Transform resourceTransform = Instantiate(template, transform);
-            resourceTransform.gameObject.SetActive(true);
 
             float offsetAmount = -160f;
 

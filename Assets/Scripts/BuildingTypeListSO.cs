@@ -12,4 +12,7 @@ public class BuildingTypeListSO : ScriptableObject {
         return buildingTypeList[position];
     }
 
+    public List<BuildingTypeSO> GetList() {
+        return buildingTypeList;
+    }
 }

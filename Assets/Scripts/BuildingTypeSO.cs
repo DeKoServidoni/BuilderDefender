@@ -12,6 +12,9 @@ public class BuildingTypeSO : ScriptableObject {
     private Transform prefab = null;
 
     [SerializeField]
+    private Sprite sprite = null;
+
+    [SerializeField]
     private ResourceGeneratorData resourceGeneratorData = null;
 
     public Transform GetPrefab() {
@@ -20,5 +23,9 @@ public class BuildingTypeSO : ScriptableObject {
 
     public ResourceGeneratorData GetGeneratorData() {
         return resourceGeneratorData;
+    }
+
+    public Sprite GetSprite() {
+        return sprite;
     }
 }
