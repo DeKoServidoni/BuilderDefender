@@ -32,7 +32,12 @@ public class BuildingTypeSelectUI : MonoBehaviour {
         }
     }
 
-    private void Update() {
+    private void Start() {
+        BuildingManager.Instance.OnActiveBuildingTypeChange += BuildingManager_OnActiveBuildingTypeChange;
+        UpdateSelectedButton();
+    }
+
+    private void BuildingManager_OnActiveBuildingTypeChange(object sender, BuildingManager.BuildingTypeArgs e) {
         UpdateSelectedButton();
     }
 
