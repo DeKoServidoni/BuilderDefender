@@ -11,6 +11,9 @@ public class BuildingTypeSelectUI : MonoBehaviour {
     [SerializeField]
     private Sprite arrowSprite = null;
 
+    [SerializeField]
+    private List<BuildingTypeSO> ignoredTypes = null;
+
     private readonly float offsetAmount = 130f;
     private Dictionary<BuildingTypeSO, Transform> buttonDictionary = null;
 
@@ -25,6 +28,9 @@ public class BuildingTypeSelectUI : MonoBehaviour {
         CreateButton(index, null);
         
         foreach (BuildingTypeSO buildingType in buildingTypeList.GetList()) {
+            if (ignoredTypes.Contains(buildingType))
+                continue;
+
             index++;
 
             var button = CreateButton(index, buildingType);

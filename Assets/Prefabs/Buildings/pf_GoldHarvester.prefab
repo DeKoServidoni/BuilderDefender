@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 3659351825981767995}
   - component: {fileID: -1868555786299716217}
   - component: {fileID: -7419331809879819356}
+  - component: {fileID: 1799985453071753514}
   m_Layer: 0
-  m_Name: pf_StoneHarvester
+  m_Name: pf_GoldHarvester
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57,7 +58,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9637f6cd06da46d3ba3db41316b5373, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingType: {fileID: 11400000, guid: 3bc48a8595ca04a878479e5564893586, type: 2}
+  buildingType: {fileID: 11400000, guid: 225343d2f0e5f4bb3896bfc7ce4ef090, type: 2}
+--- !u!61 &1799985453071753514
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52426757448663634}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.027582169, y: -0.2068572}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.881837, y: 4.282138}
+  m_EdgeRadius: 0
 --- !u!1 &3293313865850077941
 GameObject:
   m_ObjectHideFlags: 0
@@ -68,7 +95,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6119098832411131784}
   - component: {fileID: 4033935865183325227}
-  - component: {fileID: 6232916796875663155}
+  - component: {fileID: 6199634854835123564}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -130,7 +157,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2263e91ebcd2a254dab5f4caccb4a7af, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8ead931dd91bff8489e75de9c414f17f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -141,7 +168,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6232916796875663155
+--- !u!114 &6199634854835123564
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

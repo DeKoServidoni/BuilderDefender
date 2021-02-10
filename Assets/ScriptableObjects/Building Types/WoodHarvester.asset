@@ -20,3 +20,4 @@ MonoBehaviour:
     resourceType: {fileID: 11400000, guid: e069e2b664adf4261b01251fc1acffed, type: 2}
     resourceDetectionRadius: 7
     maxResourceAmount: 7
+  minConstructionRadius: 7

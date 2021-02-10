@@ -17,6 +17,9 @@ public class BuildingTypeSO : ScriptableObject {
     [SerializeField]
     private ResourceGeneratorData resourceGeneratorData = null;
 
+    [SerializeField]
+    private float minConstructionRadius = 0.0f;
+
     public Transform GetPrefab() {
         return prefab;
     }
@@ -27,5 +30,9 @@ public class BuildingTypeSO : ScriptableObject {
 
     public Sprite GetSprite() {
         return sprite;
+    }
+
+    public float GetMinConstructionRadius() {
+        return minConstructionRadius;
     }
 }

@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9114025eed47c4ddda8d614779e2b8ef, type: 3}
-  m_Name: StoneHarvester
+  m_Name: Headquarter
   m_EditorClassIdentifier: 
-  nameString: Stone Harvester
-  prefab: {fileID: 3659351825981767995, guid: 0e46c64c6d6c844348127d876b5516fd, type: 3}
-  sprite: {fileID: 21300000, guid: 2263e91ebcd2a254dab5f4caccb4a7af, type: 3}
+  nameString: HQ
+  prefab: {fileID: 3659351825981767995, guid: 1826d87d53ea14145a8f8bcf610bc648, type: 3}
+  sprite: {fileID: 21300000, guid: 7030b8e3eb49e8440ae8eb3ec8b45d05, type: 3}
   resourceGeneratorData:
     timerMax: 1
-    resourceType: {fileID: 11400000, guid: e7eeff88820504719acbc9a4860b3167, type: 2}
-    resourceDetectionRadius: 5
-    maxResourceAmount: 4
-  minConstructionRadius: 7
+    resourceType: {fileID: 11400000, guid: e069e2b664adf4261b01251fc1acffed, type: 2}
+    resourceDetectionRadius: 7
+    maxResourceAmount: 7
+  minConstructionRadius: 0
